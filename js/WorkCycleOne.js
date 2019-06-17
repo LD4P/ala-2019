@@ -1,6 +1,12 @@
+import AboutSinopia from './AboutSinopia.js'
+import LinkedDataEditor from './LinkedDataEditor.js'
 import SinopiaProfileEditor from './SinopiaProfileEditor.js'
+import SinopiaServer from './SinopiaServer.js'
 
+customElements.define(`about-sinopia`, AboutSinopia)
+customElements.define(`linked-data-editor`, LinkedDataEditor)
 customElements.define(`sinopia-pe`, SinopiaProfileEditor)
+customElements.define(`sinopia-server`, SinopiaServer)
 
 class WorkCycleOne extends HTMLElement {
 
@@ -14,7 +20,7 @@ class WorkCycleOne extends HTMLElement {
           border: 1px solid black;
           padding: .5em;
         }
-        .bml-loop {
+        .sinopia-services {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           grid-gap: 10px;
@@ -34,12 +40,11 @@ class WorkCycleOne extends HTMLElement {
         </div>
         <about-sinopia></about-sinopia>
         <br />
-        <div class="bml-loop">
-          <build-one slot="loop"></build-one>
+        <div class="sinopia-services">
           <sinopia-pe></sinopia-pe>
-          <measure-one slot="loop"></measure-one>
+          <linked-data-editor slot="loop"></linked-data-editor>
+          <sinopia-server slot="loop"></sinopia-server>
         </div>
-        <learn-one slot="loop"></learn-one>
       </div>
     `
   }
