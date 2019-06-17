@@ -1,0 +1,26 @@
+{
+  "name": "ala-2019",
+  "version": "1.0.0",
+  "description": "Presentation for ALA 2019 BIBFRAME Update",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LD4P/ala-2019.git"
+  },
+  "keywords": [
+    "sinopia",
+    "bibframe",
+    "linked-data",
+    "ala",
+    "2019"
+  ],
+  "author": "Jeremy Nelson, Joshua Greben",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/LD4P/ala-2019/issues"
+  },
+  "homepage": "https://github.com/LD4P/ala-2019#readme"
+}
