@@ -9,7 +9,6 @@ export default class SinopiaServer extends HTMLElement {
       h1 {
         text-align: center;
       }
-
     </style>
     <div>
       <h1>Sinopia Server</h1>
