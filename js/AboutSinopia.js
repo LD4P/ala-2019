@@ -1,3 +1,4 @@
+// Copyright 2019 Stanford University, licensed under Apache 2.0
 export default class AboutSinopia extends HTMLElement {
 
   constructor() {
@@ -28,14 +29,17 @@ export default class AboutSinopia extends HTMLElement {
         <h1>About Sinopia</h1>
         <p>
           A project of the Andrew Mellon Foundation Linked Data for Production (LD4P),
-          Sinopia is a collaborative linked-data editing environment that runs on
+          Sinopia is an open-source collaborative linked-data editing environment that runs on
           <a href="https://aws.amazon.com/">Amazon Web Services</a> public cloud at
-          <a href="https://sinopia.io">https://sinopia.io</a>.
+          <a href="https://sinopia.io">https://sinopia.io</a>. Inspired
+          by the Library of Congress's <a href="http://bibframe.org/bfe/">BIBFRAME</a>
+          editor, Sinopia design is not restricted by specific vocabularies but is
+          a more general linked-data editing and publishing platform.
         </p>
         <p>
           With project starting in fall of 2018, Sinopia is finishing up it's first
           work-cycle with the impending release of a Minimal Viable Product (MVP)
-          at the end of July. 
+          in the next couple of months.
         </p>
       </div>
       <div class="two">
