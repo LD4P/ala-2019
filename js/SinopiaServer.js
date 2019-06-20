@@ -32,7 +32,12 @@ export default class SinopiaServer extends HTMLElement {
        The Sinopia Server returns the Trellis URI which can then be seen if you click on the
       <strong>Preview RDF</strong> button again:
      </p>
-     <img src ="img/sinopia-preview-saved-rdf.png" alt="Preview RDF Modal with saved Trellis URI" />
+     <img src="img/sinopia-preview-saved-rdf.png" alt="Preview RDF Modal with saved Trellis URI" />
+     <p>
+     Click on the <a href="https://trellis.development.sinopia.io/repository/stanford/6b22feb6-c35f-462a-94d0-e8e5700fb75a">https://trellis.development.sinopia.io/repository/stanford/6b22feb6-c35f-462a-94d0-e8e5700fb75a</a>
+     resolves to this web view:
+     </p>
+     <img src="img/trellis-pride-and-prejudice.png" alt="Trellis view of Pride and Prejudice" />
     </div>
     `
   }
